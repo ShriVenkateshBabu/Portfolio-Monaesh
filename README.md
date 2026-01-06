@@ -158,4 +158,4 @@ Save weeks of design & development time
 With the included guides and comments in the code, you can make it truly yours in just a few hours.
 
 ✨ You’re all set! Customize → Run Locally → Deploy → Go Live 🚀
-If you face any problem connect with me by dropping an Email at : Contactgaurav8@gmail.com
+
