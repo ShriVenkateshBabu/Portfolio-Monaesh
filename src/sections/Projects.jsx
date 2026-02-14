@@ -51,19 +51,19 @@ export default function Projects() {
         title: "College Events",
         link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#0d4d3d",
-        image: isMobile ? photo1 : photo1, // Mobile vs desktop image
+        image: isMobile ? img1 : img1, // Mobile vs desktop image
       },
       {
         title: "Awards",
         link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#3884d3",
-        image: isMobile ? photo2 : photo2,
+        image: isMobile ? img2 : img2,
       },
       {
         title: "Covid 19 Awarness ",
         link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#dc9317",
-        image: isMobile ? photo3 : photo3,
+        image: isMobile ? img3 : img3,
       },
     ],
     [isMobile]
