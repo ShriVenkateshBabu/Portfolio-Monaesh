@@ -9,7 +9,7 @@ import { motion, useScroll, AnimatePresence } from "framer-motion";
 // Importing project images (desktop & mobile versions)
 import img1 from "../assets/Event1.jpg";
 import img2 from "../assets/Event2.webp";
-import img3 from "../assets/Event3.JPG";
+import img3 from "../assets/Event3.jpg";
 import photo1 from "../assets/photo1.JPG";
 import photo2 from "../assets/photo2.PNG";
 import photo3 from "../assets/photo3.png";
