@@ -7,9 +7,9 @@ import { motion, useScroll, AnimatePresence } from "framer-motion";
 // AnimatePresence: to animate components when mounting/unmounting
 
 // Importing project images (desktop & mobile versions)
-import img1 from "../assets/img1.JPG";
-import img2 from "../assets/img2.JPG";
-import img3 from "../assets/img3.JPG";
+import img1 from "../assets/Event1.JPG";
+import img2 from "../assets/Event2.webp";
+import img3 from "../assets/Event3.JPG";
 import photo1 from "../assets/photo1.JPG";
 import photo2 from "../assets/photo2.PNG";
 import photo3 from "../assets/photo3.png";
@@ -48,20 +48,20 @@ export default function Projects() {
   const projects = React.useMemo(
     () => [
       {
-        title: "nk studio",
-        link: "https://www.nk.studio/",
+        title: "College Events",
+        link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#0d4d3d",
         image: isMobile ? photo1 : img1, // Mobile vs desktop image
       },
       {
-        title: "Gamily",
-        link: "https://gamilyapp.com/",
+        title: "Awards",
+        link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#3884d3",
         image: isMobile ? photo2 : img2,
       },
       {
-        title: "Hungry Tiger",
-        link: "https://www.eathungrytiger.com/",
+        title: "Covid 19 Awarness ",
+        link: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp",
         bgColor: "#dc9317",
         image: isMobile ? photo3 : img3,
       },

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import p from "../assets/p.jpg";
+import p from "../assets/Mr.Monaesh Babu B.jpeg";
 
 export default function About() {
   return (
@@ -17,7 +17,7 @@ export default function About() {
 
       {/* Content container */}
       <div className="relative z-10 max-w-6xl w-full mx-auto px-6 md:px-10 lg:px-12 py-20 flex flex-col gap-12">
-        
+
         {/* Profile header */}
         <motion.div
           className="flex flex-col md:flex-row items-center md:items-stretch gap-8"
@@ -34,31 +34,31 @@ export default function About() {
             aria-hidden="true"
           >
             {/* Replace with your actual avatar image */}
-            
+
             <div className="absolute inset-0 " />
-           
+
             <img src={p} alt="test" />
           </motion.div>
 
           {/* Name + Role + Bio + CTAs */}
           <div className="flex-1 flex flex-col justify-center text-center md:text-left">
             <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#1CD8D2] via-[#00bf8f] to-[#302b63]">
-              Gaurav Gupta
+              Monaesh Babu B
             </h2>
             <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-              Full Stack Developer
+              Event Operations Manager
             </p>
 
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I build scalable, modern applications with a strong focus on clean architecture, delightful UX, and performance. My toolkit spans Java, React, Next.js, TypeScript, Tailwind CSS, and FastAPI—bringing ideas to life from concept to production with robust APIs and smooth interfaces.
+              Event Management Specialist with 5+ years of experience in delivering high-impact events, brand activations, and corporate functions. Driven by creativity, precision, and passion for excellence.
             </p>
 
             {/* Quick stats */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl">
               {[
                 { label: "Experience", value: "5+ years" },
-                { label: "Specialty", value: "Full Stack" },
-                { label: "Focus", value: "Performance & UX" },
+                { label: "Specialty", value: "Event Management" },
+                { label: "Focus", value: "Event Planning" },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -109,11 +109,13 @@ export default function About() {
               About Me
             </h3>
             <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-             I’m a Software Developer, Content Creator, and Web Developer — passionate about building fast, resilient applications and sharing coding insights on Instagram and YouTube.
+              I am a creative event planner who believes that every celebration deserves a unique story. With 5+ years of experience in the event industry, I transform ideas into beautifully executed moments that inspire and impress.
+
+              From concept development to final execution, I focus on every detail to ensure perfection. My passion for design, organization, and customer satisfaction helps me deliver events that leave lasting impressions.
+
+              For me, event management is not just a profession—it is an art of bringing people together.
             </p>
-            <p className="mt-4 text-gray-400 text-base sm:text-lg">
-              I love turning ideas into scalable, user‑friendly products that make an impact. 
-            </p>
+
           </motion.div>
         </div>
       </div>

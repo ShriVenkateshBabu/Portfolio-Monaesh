@@ -3,7 +3,7 @@ import { FaPlay, FaPause } from "react-icons/fa";
 
 const MusicPlayer = () => {
   const playlist = [
-    "/iwasneverthere.mp3",
+    "/Raavana-Mavandaa-MassTamilan.dev.mp3",
     "/escapism.mp3",
     "/blue.mp3",
     "/YAD.mp3",

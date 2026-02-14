@@ -2,11 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  FaYoutube,
-  FaXTwitter,
-  FaLinkedinIn,
-  FaInstagram,
-  FaGithub,
+  FaInstagram, FaPhone
 } from "react-icons/fa6";
 
 /**
@@ -16,19 +12,14 @@ import {
  * - Add/remove items if you want more or fewer social platforms
  */
 const socials = [
-  { Icon: FaYoutube, label: "YouTube", href: "https://www.youtube.com/@gauravbitss" },
-  { Icon: FaXTwitter, label: "X", href: "https://x.com/gauravbuilds" },
-  { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/gaurav-gupta-4179671b0/" },
-  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/gauravbits/" },
-  { Icon: FaGithub, label: "GitHub", href: "https://github.com/gauravgupta364" },
+  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/monaesh_official?igsh=cG9lZmZiOWN5cmJp" },
+  {
+    Icon: FaPhone,
+    label: "Phone",
+    href: "tel:+91978927138"
+  },
 ];
 
-/**
- * Framer Motion variants for hover/tap glow effects
- * - Initial: normal state
- * - Hover: scale up, lift slightly, and glow with neon shadows
- * - Tap: slightly shrink when clicked/tapped
- */
 const glowVariants = {
   initial: { scale: 1, y: 0, filter: "drop-shadow(0 0 0 rgba(0,0,0,0))" },
   hover: {
@@ -72,7 +63,7 @@ const Footer = () => {
               textShadow: "0 2px 18px rgba(0,0,0,0.45)",
             }}
           >
-            Gaurav Gupta
+            Monaesh Babu B
           </h1>
         </div>
 
@@ -115,7 +106,7 @@ const Footer = () => {
         {/* --- Copyright / Trademark --- */}
         {/* Auto-updates year dynamically */}
         <p className="text-xs text-gray-400">
-          © {new Date().getFullYear()} Gaurav Gupta. All rights reserved.
+          © {new Date().getFullYear()} Monaesh Babu. All rights reserved.
         </p>
       </motion.div>
     </footer>

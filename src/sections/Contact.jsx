@@ -75,7 +75,7 @@ export default function Contact() {
       );
 
       setStatus("success");
-      setFormData({name: "",email: "",service: "",budget: "",idea: ""});
+      setFormData({ name: "", email: "", service: "", budget: "", idea: "" });
     } catch (err) {
       console.error("EmailJS Error:", err);
       setStatus("error");
@@ -88,7 +88,7 @@ export default function Contact() {
       {/* Particles Background */}
       <ParticlesBackground />
 
-  
+
 
       {/* Contact Section Content */}
       <div className="relative z-10 w-full flex flex-col md:flex-row items-center gap-10">
@@ -129,9 +129,8 @@ export default function Contact() {
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
-                className={`p-3 rounded-md bg-white/10 border ${
-                  errors.name ? "border-red-500" : "border-gray-500"
-                } text-white focus:outline-none focus:border-blue-500`}
+                className={`p-3 rounded-md bg-white/10 border ${errors.name ? "border-red-500" : "border-gray-500"
+                  } text-white focus:outline-none focus:border-blue-500`}
               />
               {errors.name && (
                 <p className="text-red-500 text-xs">{errors.name}</p>
@@ -149,9 +148,8 @@ export default function Contact() {
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleChange}
-                className={`p-3 rounded-md bg-white/10 border ${
-                  errors.email ? "border-red-500" : "border-gray-500"
-                } text-white focus:outline-none focus:border-blue-500`}
+                className={`p-3 rounded-md bg-white/10 border ${errors.email ? "border-red-500" : "border-gray-500"
+                  } text-white focus:outline-none focus:border-blue-500`}
               />
               {errors.email && (
                 <p className="text-red-500 text-xs">{errors.email}</p>
@@ -168,18 +166,17 @@ export default function Contact() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className={`p-3 rounded-md bg-white/10 border ${
-                  errors.service ? "border-red-500" : "border-gray-500"
-                } focus:outline-none focus:border-blue-500`}
+                className={`p-3 rounded-md bg-white/10 border ${errors.service ? "border-red-500" : "border-gray-500"
+                  } focus:outline-none focus:border-blue-500`}
               >
                 <option value="" disabled>
                   Something in mind?
                 </option>
                 <option value="Web Development" className="text-black">
-                  Web Development
+                  Event Management
                 </option>
                 <option value="Mobile Application" className="text-black">
-                  Mobile Application
+                  Celebrity Management
                 </option>
                 <option value="Others" className="text-black">
                   Others
@@ -204,9 +201,8 @@ export default function Contact() {
                   placeholder="Your Budget"
                   value={formData.budget}
                   onChange={handleChange}
-                  className={`p-3 rounded-md bg-white/10 border ${
-                    errors.budget ? "border-red-500" : "border-gray-500"
-                  } text-white focus:outline-none focus:border-blue-500`}
+                  className={`p-3 rounded-md bg-white/10 border ${errors.budget ? "border-red-500" : "border-gray-500"
+                    } text-white focus:outline-none focus:border-blue-500`}
                 />
 
                 {errors.budget && (
@@ -227,9 +223,8 @@ export default function Contact() {
                 placeholder="Enter your idea"
                 value={formData.idea}
                 onChange={handleChange}
-                className={`p-3 rounded-md bg-white/10 border ${
-                  errors.idea ? "border-red-500" : "border-gray-500"
-                } text-white focus:outline-none focus:border-blue-500`}
+                className={`p-3 rounded-md bg-white/10 border ${errors.idea ? "border-red-500" : "border-gray-500"
+                  } text-white focus:outline-none focus:border-blue-500`}
               />
 
               {errors.idea && (
@@ -240,19 +235,18 @@ export default function Contact() {
             {/* Status message */}
             {status && (
               <p
-                className={`text-sm ${
-                  status === "success"
-                    ? "text-green-400"
-                    : status === "error"
+                className={`text-sm ${status === "success"
+                  ? "text-green-400"
+                  : status === "error"
                     ? "text-red-400"
                     : "text-yellow-400"
-                }`}
+                  }`}
               >
                 {status === "sending"
                   ? "Sending..."
                   : status === "success"
-                  ? "Message sent successfully ✅"
-                  : "Something went wrong ❌"}
+                    ? "Message sent successfully ✅"
+                    : "Something went wrong ❌"}
               </p>
             )}
 

@@ -6,30 +6,30 @@ import { motion, useScroll, useTransform } from "framer-motion";
 // Array of experience objects containing job details
 const experiences = [
   {
-    role: "Web Developer",
-    company: "Brain Mentors",
-    duration: "2022",
+    role: "Public Relation Officer",
+    company: "Anna Fathima College",
+    duration: "May 2022 – December 2022",
     description:
-      "Worked with team to build high-performance apps, integrated AI features, and improved engagement by 10%.",
+      "Handled public relations, media coordination, and event communication activities. Managed student engagement, promotions, and institutional branding initiatives.",
   },
-  
+
   {
-    role: "Web Developer Intern",
-    company: "Mobisoft Technologies",
-    duration: "2022 - 2023",
+    role: "Event Manager & Celebrity Coordinator",
+    company: "VN Media Works",
+    duration: "2022 – 2024",
     description:
-      "In this internship , I gained valuable hands on experience and exposure to various aspects of web development.",
-  },
-{
-    role: "Graduate Engineer",
-    company: "HCL Technologies",
-    duration: "2024 - 2025",
-    description:
-      "Built the frontend of a GenAI-powered PV Intake Application using Next.js and TypeScript for a U.S life sciences client, enabling automated patient report processing across global regions.",
+      "Planned and executed large-scale events, managed celebrity appearances, coordinated vendors, and handled client relations. Ensured smooth operations and high-profile event success.",
   },
 
-
+  {
+    role: "Sports Trainer & Development Officer",
+    company: "Sports Development Program",
+    duration: "2020 – 2024",
+    description:
+      "Trained athletes, organized sports events, developed fitness programs, and promoted sports excellence among students and youth participants.",
+  },
 ];
+
 
 // Reusable component to render each experience item with animations
 function ExperienceItem({ exp, idx, start, end, scrollYProgress, layout }) {
